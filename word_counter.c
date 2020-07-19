@@ -1,3 +1,4 @@
+// How many words are in the source string
 #include <stdio.h>
 
 int main()
