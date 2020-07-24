@@ -9,7 +9,7 @@ int main(int argc, char const * argv[]) {
 
   if ( argc != 2 )
   {
-    printf("%s", "Open the program like this: ./name k");
+    printf("%s", "Open the program as: ./name k");
     printf("\n%s", "Where k is an integer-key.\n");
     printf("%s\n", "Now you can try again :)");
     exit(1);
