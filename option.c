@@ -32,6 +32,7 @@ int * find_diff_of_options(float * prices, int size) {
   for (int i = 0; i < size; i++) {
     int k = 1;
     int arr_end = 0;
+    
     while (i - k >= 0 && arr_end != 1) {
       if (prices[i - k] <= prices[i])
         k += 1;
